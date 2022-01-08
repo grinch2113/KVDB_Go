@@ -10,7 +10,7 @@ import (
 
 const path = "./Database/"
 
-var dbName = "MyDB.kvdb"
+const dbName = "MyDB.kvdb"
 
 func init() {
 	os.MkdirAll(path, os.ModePerm)
